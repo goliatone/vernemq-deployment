@@ -11,7 +11,7 @@ COPY vernemq.conf /vernemq/etc/vernemq.conf.local
 EXPOSE 1883/tcp \
        8080/tcp \
        8883/tcp \
-       8888/tcp 
+       8888/tcp \
        4369/tcp \
        9100-9109/tcp \
        44053/tcp
